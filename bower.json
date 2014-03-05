@@ -1,0 +1,21 @@
+{
+  "name": "jquery-paramalama",
+  "main": "jquery.paramalama.js",
+  "version": "0.1.0",
+  "homepage": "https://github.com/kitajchuk/jquery-paramalama",
+  "authors": [
+    "Brandon Kitajchuk <kitajchuk@gmail.com>"
+  ],
+  "description": "The opposite of jQuery.param().",
+  "keywords": [
+    "javascript",
+    "jquery"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "devDependencies": {}
+}
