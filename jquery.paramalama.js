@@ -29,7 +29,7 @@
 })(function ( $ ) {
     
     $.paramalama = function ( str ) {
-        var query = str.match( /[#|?].*$/g ),
+        var query = decodeURIComponent( str ).match( /[#|?].*$/g ),
             ret = {};
         
         if ( query ) {
