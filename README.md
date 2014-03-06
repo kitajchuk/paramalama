@@ -1,5 +1,5 @@
-jquery-paramalama
-=================
+paramalama
+==========
 
 > Use with jQuery or Ender as $.paramalama() or standalone as paramalama().
 
