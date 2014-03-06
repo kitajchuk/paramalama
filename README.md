@@ -1,24 +1,27 @@
 jquery-paramalama
 =================
 
-> You know, the opposite of jQuery.param...again. Because, why not?
+> Use with jQuery or Ender as $.paramalama() or standalone as paramalama().
 
 ## Install
 
 ```shell
 # npm
-npm install jquery-paramalama
+npm install paramalama
 
 # bower
-bower install jquery-paramalama
+bower install paramalama
+
+# ender
+ender add paramalama
 ```
 
 ## Usage
 
 ```javascript
-(function ( $ ) {
-    $.paramalama( window.location.href );
-})( jQuery )
-```
+// jQuery and Ender
+$.paramalama( window.location.href );
 
-It does NOT parse arrayed values from string, so, ya.
+// Standalone
+paramalama( window.location.href );
+```

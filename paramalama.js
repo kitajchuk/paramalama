@@ -1,21 +1,21 @@
 /*!
  *
- * jQuery's opposite of .param()
- * Does NOT parse arrayed values from string!
+ * Paramalama
+ * Use with jQuery or Ender as $.paramalama() or standalone as paramalama()
  *
  * @author: @kitajchuk
  * @url: http://github.com/kitajchuk
  *
  *
  */
-(function ( $, window, undefined ) {
+(function ( context, undefined ) {
 
 
 "use strict";
 
 
 /******************************************************************************
- * jQuery.paramalama
+ * paramalama
 *******************************************************************************/
 (function ( factory ) {
     
@@ -28,7 +28,7 @@
     
 })(function ( $ ) {
     
-    $.paramalama = function ( str ) {
+    var paramalama = function ( str ) {
         var query = decodeURIComponent( str ).match( /[#|?].*$/g ),
             ret = {};
         
@@ -48,7 +48,17 @@
         return ret;
     };
     
+    if ( typeof module === "object" && module && typeof module.exports === "object" ) {
+        module.exports = paramalama;
+        
+    } else if ( context.jQuery !== undefined ) {
+        context.jQuery.paramalama = paramalama;
+        
+    } else {
+        context.paramalama = paramalama;
+    }
+    
 });
 
 
-})( jQuery, window );
+})( this );
