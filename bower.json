@@ -1,12 +1,12 @@
 {
-  "name": "jquery-paramalama",
-  "main": "jquery.paramalama.js",
-  "version": "0.1.1",
-  "homepage": "https://github.com/kitajchuk/jquery-paramalama",
+  "name": "paramalama",
+  "main": "paramalama.js",
+  "version": "0.1.2",
+  "homepage": "https://github.com/kitajchuk/paramalama",
   "authors": [
     "Brandon Kitajchuk <kitajchuk@gmail.com>"
   ],
-  "description": "The opposite of jQuery.param().",
+  "description": "Use with jQuery or Ender as $.paramalama() or standalone as paramalama().",
   "keywords": [
     "javascript",
     "jquery",
