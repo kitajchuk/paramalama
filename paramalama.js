@@ -33,7 +33,7 @@
             ret = {};
         
         if ( query ) {
-            query = query[ 0 ].replace( /^\?|^#|^\/|\/$/g, "" );
+            query = query[ 0 ].replace( /^\?|^#|^\/|\/$|\[|\]/g, "" );
             query = query.split( "&" );
             
             for ( var i = query.length; i--; ) {
