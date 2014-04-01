@@ -41,7 +41,20 @@
                     key = pair[ 0 ],
                     val = pair[ 1 ];
                 
-                ret[ key ] = val;
+                if ( ret[ key ] ) {
+                    // #2 https://github.com/kitajchuk/paramalama/issues/2
+                    // This supposedly will work as of ECMA-262
+                    // This works since we are not passing objects across frame boundaries
+                    // and we are not considering Array-like objects. This WILL be an Array.
+                    if ( {}.toString.call( ret[ key ] ) !== "[object Array]" ) {
+                        ret[ key ] = [ ret[ key ] ];
+                    }
+                    
+                    ret[ key ].push( val );
+                    
+                } else {
+                    ret[ key ] = val;
+                }
             }
         }
         

@@ -1,13 +1,13 @@
 {
     "name": "paramalama",
     "description": "Use with jQuery or Ender as $.paramalama() or standalone as paramalama().",
-    "version": "0.1.2",
+    "version": "0.1.3",
     "homepage": "https://github.com/kitajchuk/paramalama",
     "readmeFilename": "README.md",
     "author": {
         "name": "Brandon Kitajchuk",
         "email": "kitajchuk@gmail.com",
-        "url": "http://github.com/kitajchuk"
+        "url": "http://blkpdx.com"
     },
     "repository": {
         "type": "git",
