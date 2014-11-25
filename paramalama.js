@@ -1,10 +1,9 @@
 /*!
  *
- * Paramalama
- * Use with jQuery or Ender as $.paramalama() or standalone as paramalama()
+ * Parse query string into object literal representation
  *
+ * @compat: jQuery, Ender, Zepto
  * @author: @kitajchuk
- * @url: http://github.com/kitajchuk
  *
  *
  */

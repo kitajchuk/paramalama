@@ -1,9 +1,11 @@
 paramalama
 ==========
 
-> Use with jQuery or Ender as $.paramalama() or standalone as paramalama().
+> Parse query string into object literal representation.
 
-## Install
+
+
+### Install
 
 ```shell
 # npm
@@ -16,7 +18,9 @@ bower install paramalama
 ender add paramalama
 ```
 
-## Usage
+
+
+### Usage
 
 ```javascript
 // jQuery and Ender

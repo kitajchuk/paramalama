@@ -1,12 +1,12 @@
 {
   "name": "paramalama",
   "main": "paramalama.js",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "homepage": "https://github.com/kitajchuk/paramalama",
   "authors": [
     "Brandon Kitajchuk <kitajchuk@gmail.com>"
   ],
-  "description": "Use with jQuery or Ender as $.paramalama() or standalone as paramalama().",
+  "description": "Parse query string into object literal representation.",
   "keywords": [
     "javascript",
     "jquery",

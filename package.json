@@ -1,8 +1,8 @@
 {
     "name": "paramalama",
     "description": "Use with jQuery or Ender as $.paramalama() or standalone as paramalama().",
-    "version": "0.1.4",
-    "homepage": "https://github.com/kitajchuk/paramalama",
+    "version": "0.1.5",
+    "homepage": "https://github.com/ProperJS/paramalama",
     "readmeFilename": "README.md",
     "author": {
         "name": "Brandon Kitajchuk",
@@ -11,23 +11,22 @@
     },
     "repository": {
         "type": "git",
-        "url": "git://github.com/kitajchuk/paramalama.git"
+        "url": "git://github.com/ProperJS/paramalama.git"
     },
     "bugs": {
-        "url": "https://github.com/kitajchuk/paramalama/issues"
+        "url": "https://github.com/ProperJS/paramalama/issues"
     },
     "licenses": [
         {
             "type": "MIT",
-            "url": "https://github.com/kitajchuk/paramalama/blob/master/LICENSE-MIT"
+            "url": "https://github.com/ProperJS/paramalama/blob/master/LICENSE-MIT"
         }
     ],
     "keywords": [
-        "javascript",
+        "querystring",
         "jquery",
         "ender"
     ],
-    "devDependencies": {},
-    "main": "paramalama.js",
-    "ender": "ender.js"
+    "main": "paramalama",
+    "ender": "ender"
 }
