@@ -22,7 +22,7 @@
         define( [ "jquery" ], factory );
         
     } else {
-        factory( $ );
+        factory( context.$ );
     }
     
 })(function ( $ ) {
@@ -63,8 +63,8 @@
     if ( typeof module === "object" && module && typeof module.exports === "object" ) {
         module.exports = paramalama;
         
-    } else if ( context.jQuery !== undefined ) {
-        context.jQuery.paramalama = paramalama;
+    } else if ( $ !== undefined ) {
+        $.paramalama = paramalama;
         
     } else {
         context.paramalama = paramalama;

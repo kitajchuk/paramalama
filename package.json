@@ -1,7 +1,7 @@
 {
     "name": "paramalama",
     "description": "Use with jQuery or Ender as $.paramalama() or standalone as paramalama().",
-    "version": "0.1.5",
+    "version": "0.1.6",
     "homepage": "https://github.com/ProperJS/paramalama",
     "readmeFilename": "README.md",
     "author": {
