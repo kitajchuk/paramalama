@@ -63,11 +63,12 @@
     if ( typeof module === "object" && module && typeof module.exports === "object" ) {
         module.exports = paramalama;
         
-    } else if ( $ !== undefined ) {
-        $.paramalama = paramalama;
-        
     } else {
         context.paramalama = paramalama;
+
+        if ( $ !== undefined ) {
+            $.paramalama = paramalama;
+        }
     }
     
 });
