@@ -1,7 +1,7 @@
 {
     "name": "paramalama",
-    "description": "Use with jQuery or Ender as $.paramalama() or standalone as paramalama().",
-    "version": "0.1.8",
+    "description": "Parse the query from a string into an object literal representation.",
+    "version": "0.2.0",
     "homepage": "https://github.com/ProperJS/paramalama",
     "readmeFilename": "README.md",
     "author": {
@@ -19,14 +19,15 @@
     "licenses": [
         {
             "type": "MIT",
-            "url": "https://github.com/ProperJS/paramalama/blob/master/LICENSE-MIT"
+            "url": "https://github.com/ProperJS/paramalama/blob/master/LICENSE"
         }
     ],
     "keywords": [
         "querystring",
-        "jquery",
-        "ender"
+        "jquery"
     ],
     "main": "paramalama",
-    "ender": "ender"
+    "scripts": {
+        "test": "webpack test/test.js test/dist/common.js ; cp paramalama.js test/dist/browser.js"
+    }
 }

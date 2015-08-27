@@ -1,7 +1,7 @@
 paramalama
 ==========
 
-> Parse query string into object literal representation.
+> Parse the query from a string into an object literal representation.
 
 
 
@@ -9,13 +9,7 @@ paramalama
 
 ```shell
 # npm
-npm install paramalama
-
-# bower
-bower install paramalama
-
-# ender
-ender add paramalama
+npm install paramalama --save-dev
 ```
 
 
@@ -23,9 +17,11 @@ ender add paramalama
 ### Usage
 
 ```javascript
-// jQuery and Ender
+// jQuery
 $.paramalama( window.location.href );
 
-// Standalone
+// CommonJS
+var paramalama = require( "paramalama" );
+
 paramalama( window.location.href );
 ```
