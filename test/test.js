@@ -1,5 +1,5 @@
-var paramalama = require( "../paramalama" );
-var params = paramalama( "http://localhost?foo=bar&baz=bot" );
+import paramalama from "../paramalama";
+const params = paramalama( "http://localhost:9999?foo=bar&baz=bot&arr[]=hey&arr[]=how" );
 
 
 console.log( params );

@@ -1,7 +1,7 @@
-paramalama
-==========
+ProperJS // paramalama
+======================
 
-> Parse the query from a string into an object literal representation.
+> Dead simple, unidirectional query string parsing.
 
 
 
@@ -9,19 +9,16 @@ paramalama
 
 ```shell
 # npm
-npm install paramalama --save-dev
+npm i paramalama --save-dev
 ```
 
 
 
 ### Usage
-
+Parse a query string into an Object. Supports query string Arrays `?foo=bar&baz=bot&arr[]=hey&arr[]=how`
 ```javascript
-// jQuery
-$.paramalama( window.location.href );
+import paramalama from "paramalama";
 
-// CommonJS
-var paramalama = require( "paramalama" );
-
-paramalama( window.location.href );
+// Query string becomes Object
+console.log( paramalama( window.location.href ) );
 ```
